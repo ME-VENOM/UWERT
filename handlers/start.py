@@ -13,13 +13,7 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f"""**━━━━━━━━━━━━━━━━━━
- هلا عمري {message.from_user.mention()} !
-  انهو بوت يقوم بتشغيل الاغاني في المكالمات الجماعية 
-
-    ✯ سوف تجد طريقة الاستخدام في زر الاوامر
-
-    ✯ واذا واجهة مشكلة تواصل مع مطور البوت
-━━━━━━━━━━━━━━━━━━**""",
+**مش هتعب نفسي واكتب رساله شرح للبوت انت عارف بوت اغاني ف متتمنيكش**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -28,17 +22,17 @@ async def start_(client: Client, message: Message):
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "👨‍💻 مطور البوت 👨‍💻", url=f"https://t.me/{me}"
+                        "𖤽𝙑𝙀𝙉𝙊𝙈𖤽", url=f"https://t.me/{me}"
                     ),
                     InlineKeyboardButton(
-                        "🥇 كروب الدعم 🥇", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "دٓيــفـݪ .ꨄ. ⁽️. ⁽𝒅𝒆𝒗𝒊𝒍", url=f"https://t.me/XH_0H"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "👷‍♂ الاوامر 👷‍♂", url=f"https://telegra.ph/%F0%9D%99%B2%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85s-04-06"
+                        "ⓂⓄⒹⒺ", url=f"https://t.me/Y_M_4"
                     ),
                     InlineKeyboardButton(
-                        "🌐 قناة البوت الرسمية 🌐", url="https://t.me/VFF35"
+                        ".", url="https://t.me/S_K_B"
                     )]
             ]
        ),
